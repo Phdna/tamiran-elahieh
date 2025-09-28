@@ -3,35 +3,89 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>تعمیران | تعمیرات لوازم گازی و حرارتی — خانگی و صنعتی ( مناطق ۱، ۲، ۳ تهران)</title>
+<title>تعمیران | تعمیرات لوازم گازی و حرارتی — خانگی و صنعتی (مناطق ۱، ۲، ۳ تهران)</title>
 <meta name="description" content="تعمیران — متخصص تعمیرات و سرویس لوازم گازی و حرارتی خانگی و صنعتی در تمام محله‌های مناطق ۱، ۲ و ۳ تهران. تماس سریع: 09102834323">
 <link rel="canonical" href="https://phdna.github.io/tamiran-elahieh/">
 <meta property="og:title" content="تعمیران | تعمیرات خانگی و صنعتی در مناطق ۱،۲،۳">
 <meta property="og:description" content="اجاق/فر/هود/مایکروویو/کباب‌پز/گریل — تاپینگ/سرخ‌کن/پاستاپز/تنور/اجاق صنعتی/فر صنعتی/بن‌ماری/اتوکلاو. تماس: 09102834323">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://phdna.github.io/tamiran-elahieh/">
+<meta name="theme-color" content="#f8fafc">
 <style>
-  :root{--bg:#0f1113;--card:#171a1d;--fg:#f2f2f2;--muted:#b9c0c7;--accent:#ff8a1f;--ok:#25D366}
+  :root{
+    --bg:#f8fafc;        /* پس‌زمینه روشن */
+    --card:#ffffff;      /* کارت‌ها سفید */
+    --fg:#0f172a;        /* متن تیره و خوانا */
+    --muted:#475569;     /* متن فرعی */
+    --accent:#ea580c;    /* نارنجی گرم */
+    --ok:#22c55e;        /* سبز واتساپ */
+    --line:#e5e7eb;      /* خطوط و مرزها */
+    --shadow:0 10px 28px rgba(2,6,23,.08);
+  }
+
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Vazirmatn",Tahoma,sans-serif}
-  a{color:inherit}
-  .wrap{max-width:920px;margin:0 auto;padding:28px}
-  .hero{background:linear-gradient(135deg,#161a1e 0%,#0f1113 100%);border-radius:20px;padding:24px 22px 18px;box-shadow:0 10px 28px rgba(0,0,0,.35)}
-  h1{margin:0 0 8px;font-size:28px;line-height:1.35}
-  p{margin:0 0 10px;line-height:1.9;opacity:.95}
-  .cta{display:grid;gap:10px;margin-top:12px}
-  .btn{display:block;text-align:center;text-decoration:none;border-radius:12px;padding:14px 18px;font-weight:800}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg);
+    color:var(--fg);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Vazirmatn",Tahoma,sans-serif;
+    font-size:17px;             /* متن درشت‌تر */
+    line-height:1.9;
+  }
+  @media(min-width:820px){ body{ font-size:18px; } }
+
+  a{color:inherit;text-decoration:none}
+
+  .wrap{max-width:980px;margin:0 auto;padding:28px}
+  .hero{
+    background:linear-gradient(135deg,#ffffff 0%,#f8fafc 100%);
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:26px 22px 20px;
+    box-shadow:var(--shadow);
+  }
+  h1{
+    margin:0 0 10px;
+    font-size:clamp(28px,4.2vw,36px); /* تیتر بزرگ‌تر */
+    line-height:1.35;
+  }
+  p{margin:0 0 12px}
+
+  .cta{display:grid;gap:12px;margin-top:14px}
+  .btn{
+    display:block;text-align:center;border-radius:12px;
+    padding:16px 20px;           /* دکمه بزرگ‌تر */
+    font-weight:800
+  }
   .btn-call{background:var(--accent);color:#141617}
   .btn-wa{background:var(--ok);color:#111}
-  .badges{margin-top:8px}
-  .badge{display:inline-block;background:#1c2329;border:1px solid #28323a;color:#cfe3ee;border-radius:999px;padding:6px 10px;margin:2px;font-size:12px}
-  section{background:var(--card);border-radius:18px;margin-top:18px;padding:18px 16px}
-  h2{margin:0 0 10px;font-size:20px}
+
+  .badges{margin-top:10px}
+  .badge{
+    display:inline-block;background:#f1f5f9;border:1px solid #e2e8f0;
+    color:#0f172a;border-radius:999px;padding:7px 12px;margin:3px;font-size:13px
+  }
+
+  section{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:18px;
+    margin-top:20px;
+    padding:20px 16px;
+    box-shadow:var(--shadow);
+  }
+  h2{margin:0 0 12px;font-size:clamp(20px,3.2vw,24px)}
+  h3{margin:0 0 8px;font-size:clamp(18px,2.8vw,20px)}
   ul{margin:6px 0 0 0;padding:0 0 0 18px}
-  li{margin:6px 0}
-  .cols{display:grid;gap:14px}
-  @media(min-width:760px){.cta{grid-template-columns:1fr 1fr}.cols{grid-template-columns:1fr 1fr}}
-  footer{margin:16px 0 0;text-align:center;color:var(--muted);font-size:12px}
+  li{margin:7px 0}
+
+  .cols{display:grid;gap:16px}
+  @media(min-width:760px){
+    .cta{grid-template-columns:1fr 1fr}
+    .cols{grid-template-columns:1fr 1fr}
+  }
+
+  footer{margin:18px 0 0;text-align:center;color:var(--muted);font-size:13px}
 </style>
 
 <!-- Schema.org: LocalBusiness -->
@@ -68,7 +122,7 @@
   <div class="wrap">
     <!-- HERO -->
     <header class="hero">
-      <h1>تعمیران | خدمات و تعمیرات لوازم گازی و حرارتی — خانگی و صنعتی ( مناطق ۱، ۲، ۳)</h1>
+      <h1>تعمیران | تعمیرات لوازم گازی و حرارتی — خانگی و صنعتی (مناطق ۱، ۲، ۳)</h1>
       <p>سرویس همان‌روز، عیب‌یابی سریع، قطعات اصلی با ضمانت. تماس فوری: <strong>09102834323</strong></p>
       <div class="cta">
         <a class="btn btn-call" href="tel:+989102834323">📞 تماس مستقیم: 09102834323</a>
