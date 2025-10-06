@@ -1,0 +1,4 @@
+
+<!-- این دو خط را به sitemap.xml خود اضافه کنید -->
+<url><loc>https://phdna.github.io/tamiran-elahieh/portfolio.html</loc></url>
+<url><loc>https://phdna.github.io/tamiran-elahieh/reviews.html</loc></url>
