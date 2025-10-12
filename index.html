@@ -3,261 +3,173 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>تعمیران | تعمیرات لوازم گازی و حرارتی — خانگی و صنعتی (مناطق ۱، ۲، ۳ تهران)</title> 
-<meta name="description" content="تعمیران — متخصص تعمیرات و سرویس لوازم گازی و حرارتی خانگی و صنعتی (شامل اسپرسو/اسپرسوساز) در تمام محله‌های مناطق ۱، ۲ و ۳ تهران. تماس سریع: 09102834323">
+<title>تعمیران — تعمیرات لوازم گازی و حرارتی خانگی و صنعتی (مناطق ۱، ۲، ۳ تهران)</title>
+<meta name="description" content="تعمیران — سرویس و تعمیر اسپرسوساز، گاز و فر، هود، تاپینگ، سرخ‌کن، بلندر و شیکر؛ سرویس همان‌روز در الهیه و مناطق ۱،۲،۳ تهران. تماس: 09102834323">
 <link rel="canonical" href="https://phdna.github.io/tamiran-elahieh/">
-<meta property="og:title" content="تعمیران | تعمیرات خانگی و صنعتی در مناطق ۱،۲،۳">
-<meta property="og:description" content="اجاق/فر/هود/مایکروویو/کباب‌پز/گریل/اسپرسو — تاپینگ/سرخ‌کن/پاستاپز/تنور/اجاق صنعتی/فر صنعتی/بن‌ماری/اتوکلاو/اسپرسوساز صنعتی/بلندر/شیکر. تماس: 09102834323">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://phdna.github.io/tamiran-elahieh/">
-<meta name="theme-color" content="#f8fafc">
+<meta name="theme-color" content="#fafcff">
 <style>
   :root{
-    --bg:#fafcff;        /* زمینه روشن‌تر */
-    --card:#ffffff;      /* کارت‌ها سفید */
-    --fg:#0f172a;        /* متن تیره و خوانا */
-    --muted:#475569;     /* متن فرعی */
-    --accent:#ea580c;    /* نارنجی گرم */
-    --ok:#22c55e;        /* سبز واتساپ */
-    --line:#e5e7eb;      /* خطوط و مرزها */
-    --shadow:0 10px 28px rgba(2,6,23,.08);
+    --bg:#fbfdfe; --card:#ffffff; --fg:#0f172a; --muted:#55606a;
+    --accent:#ea580c; --ok:#22c55e; --line:#e9eef2; --shadow:0 8px 30px rgba(16,24,40,.06);
   }
-
   *{box-sizing:border-box}
-  html,body{margin:0;padding:0}
-  body{
-    background:var(--bg);
-    color:var(--fg);
-    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Vazirmatn",Tahoma,sans-serif;
-    font-size:17.5px;            /* متن درشت‌تر */
-    line-height:1.95;
-  }
-  @media(min-width:820px){ body{ font-size:18.5px; } }
-
-  a{color:inherit;text-decoration:none}
-
+  html,body{margin:0;padding:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Vazirmatn",Tahoma,sans-serif;color:var(--fg);background:var(--bg);}
   .wrap{max-width:980px;margin:0 auto;padding:28px}
-  .hero{
-    background:linear-gradient(135deg,#ffffff 0%,#f8fafc 100%);
-    border:1px solid var(--line);
-    border-radius:20px;
-    padding:26px 22px 20px;
-    box-shadow:var(--shadow);
-  }
-  h1{
-    margin:0 0 10px;
-    font-size:clamp(28px,4.2vw,36px); /* تیتر بزرگ‌تر */
-    line-height:1.35;
-  }
-  p{margin:0 0 12px}
-
-  .big-phone{
-    font-size:clamp(26px,5.4vw,34px); /* شماره خیلی درشت */
-    font-weight:900;
-    letter-spacing:.3px;
-    margin:6px 0 4px;
-  }
-
-  .cta{display:grid;gap:12px;margin-top:14px}
-  .btn{
-    display:block;text-align:center;border-radius:12px;
-    padding:16px 20px;           /* دکمه بزرگ‌تر */
-    font-weight:800
-  }
-  .btn-call{background:var(--accent);color:#141617}
-  .btn-wa{background:var(--ok);color:#111}
-
+  /* Hero */
+  .hero{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:var(--shadow)}
+  h1{margin:0 0 10px;font-size:clamp(24px,3.8vw,34px);line-height:1.2}
+  p.lead{margin:6px 0 14px;color:var(--muted);font-size:15.5px}
+  .phone{display:block;background:linear-gradient(90deg,#fff7f0,#fffdfc);border-radius:12px;padding:12px 14px;font-weight:900;font-size:clamp(20px,5vw,32px);text-align:center;margin:10px 0}
+  .cta{display:flex;gap:10px;margin-top:12px}
+  .btn{flex:1;padding:12px;border-radius:12px;text-align:center;font-weight:800;text-decoration:none;display:inline-block}
+  .btn-call{background:var(--accent);color:#071017}
+  .btn-wa{background:var(--ok);color:#071017}
+  /* Simple lists */
+  section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-top:18px;box-shadow:var(--shadow)}
+  h2{margin:0 0 10px;font-size:18.5px}
+  ul{padding-left:18px;margin:6px 0 0}
+  li{margin:6px 0;color:var(--muted)}
   .badges{margin-top:10px}
-  .badge{
-    display:inline-block;background:#f1f5f9;border:1px solid #e2e8f0;
-    color:#0f172a;border-radius:999px;padding:7px 12px;margin:3px;font-size:13px
-  }
-
-  section{
-    background:var(--card);
-    border:1px solid var(--line);
-    border-radius:18px;
-    margin-top:20px;
-    padding:20px 16px;
-    box-shadow:var(--shadow);
-  }
-  h2{margin:0 0 12px;font-size:clamp(20px,3.2vw,24px)}
-  h3{margin:0 0 8px;font-size:clamp(18px,2.8vw,20px)}
-  ul{margin:6px 0 0 0;padding:0 0 0 18px}
-  li{margin:7px 0}
-
-  .cols{display:grid;gap:16px}
-  @media(min-width:760px){
-    .cta{grid-template-columns:1fr 1fr}
-    .cols{grid-template-columns:1fr 1fr}
-  }
-
-  footer{margin:18px 0 0;text-align:center;color:var(--muted);font-size:13px}
-
-  /* نوار چسبان تماس/واتساپ برای موبایل */
-  .sticky-cta{position:fixed;left:0;right:0;bottom:0;background:#ffffff;border-top:1px solid var(--line);
-    box-shadow:0 -6px 20px rgba(2,6,23,.08);padding:10px 12px;z-index:50}
-  .sticky-cta .inner{max-width:980px;margin:0 auto;display:grid;gap:10px;grid-template-columns:1fr 1fr}
-  .sticky-cta a{display:block;text-align:center;border-radius:12px;padding:12px 14px;font-weight:800;text-decoration:none}
-  .sticky-cta .call{background:var(--accent);color:#141617}
-  .sticky-cta .wa{background:var(--ok);color:#111}
-  @media(min-width:760px){.sticky-cta{display:none}} /* روی دسکتاپ مخفی */
-
-  /* سبک‌های اضافی برای بخش مکان */
+  .badge{display:inline-block;background:#f4f7f9;border-radius:999px;padding:6px 10px;margin:4px;font-size:13px;color:var(--fg);border:1px solid var(--line)}
+  footer{margin:20px 0 0;color:var(--muted);font-size:13px;text-align:center}
+  /* Portfolio/Reviews links small */
+  .links-row{display:flex;gap:10px;flex-wrap:wrap}
+  .links-row a{background:#fff;border:1px solid var(--line);padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--fg);font-weight:700}
+  /* Sticky CTA mobile */
+  .sticky-cta{position:fixed;left:12px;right:12px;bottom:12px;background:linear-gradient(90deg,#ffffff,#fbfcfd);border-radius:14px;border:1px solid var(--line);padding:8px;display:flex;gap:8px;box-shadow:0 10px 30px rgba(2,6,23,.12);z-index:999}
+  .sticky-cta a{flex:1;padding:10px;border-radius:10px;text-align:center;text-decoration:none;font-weight:800}
+  .sticky-call{background:var(--accent);color:#071017}
+  .sticky-wa{background:var(--ok);color:#071017}
+  @media(min-width:760px){.sticky-cta{display:none}}
+  /* Location small styles */
   #location a{color:var(--accent);font-weight:700}
-  #location p{margin:6px 0}
-  #location .small{color:#666;font-size:14px}
+  #location p{margin:6px 0;color:var(--muted)}
 </style>
 
-<!-- Schema.org: LocalBusiness -->
+<!-- LocalBusiness schema -->
 <script type="application/ld+json">
 {
- "@context":"https://schema.org",
- "@type":"LocalBusiness",
- "name":"تعمیران (Tamiran)",
- "telephone":"+989102834323",
- "url":"https://phdna.github.io/tamiran-elahieh/",
- "address":{"@type":"PostalAddress","addressLocality":"تهران","addressRegion":"تهران","addressCountry":"IR"},
- "areaServed":{
-   "@type":"AdministrativeArea",
-   "name":"Tehran Districts 1,2,3",
-   "hasPart":[
-     {"@type":"Place","name":"الهیه/فرشته"},
-     {"@type":"Place","name":"نیاوران"},{"@type":"Place","name":"قیطریه"},{"@type":"Place","name":"زعفرانیه"},
-     {"@type":"Place","name":"ولنجک"},{"@type":"Place","name":"تجریش"},{"@type":"Place","name":"اقدسیه"},
-     {"@type":"Place","name":"فرمانیه"},{"@type":"Place","name":"کامرانیه"},{"@type":"Place","name":"محمودیه"},
-     {"@type":"Place","name":"اوین"},{"@type":"Place","name":"دربند"},{"@type":"Place","name":"کاشانک"},
-     {"@type":"Place","name":"سعادت‌آباد"},{"@type":"Place","name":"شهرک غرب (قدس)"},
-     {"@type":"Place","name":"گیشا/کوی نصر"},{"@type":"Place","name":"مرزداران"},{"@type":"Place","name":"شهرآرا"},
-     {"@type":"Place","name":"دریان‌نو"},{"@type":"Place","name":"تهران‌ویلا"},{"@type":"Place","name":"طرشت"},{"@type":"Place","name":"فرحزاد"},
-     {"@type":"Place","name":"ونک"},{"@type":"Place","name":"جردن/آفریقا"},{"@type":"Place","name":"میرداماد/داوودیه"},
-     {"@type":"Place","name":"ظفر/دستگردی"},{"@type":"Place","name":"قلهک"},{"@type":"Place","name":"دروس"},
-     {"@type":"Place","name":"اختیاریه"},{"@type":"Place","name":"بلوار کاوه"},{"@type":"Place","name":"سیدخندان"},
-     {"@type":"Place","name":"دولت/کلاهدوز"},{"@type":"Place","name":"آرارات"}
-   ]
- }
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"تعمیران (Tamiran)",
+  "telephone":"+989102834323",
+  "url":"https://phdna.github.io/tamiran-elahieh/",
+  "address":{"@type":"PostalAddress","addressLocality":"الهیه","addressRegion":"تهران","addressCountry":"IR"},
+  "areaServed":["الهیه","نیاوران","زعفرانیه","ولنجک","ونک","سعادت‌آباد","شهرک غرب","جردن","میرداماد"]
 }
 </script>
 </head>
 <body>
   <div class="wrap">
-    <!-- HERO -->
-    <header class="hero">
-      <h1>شرکت تعمیران | تعمیرات لوازم گازی و حرارتی — خانگی و صنعتی (مناطق ۱، ۲، ۳)</h1>
-      <p>سرویس همان‌روز، عیب‌یابی سریع، قطعات اصلی با ضمانت.</p>
-      <p class="big-phone">
-        <a href="tel:+989102834323" style="text-decoration:none;color:inherit">📞 09102834323</a>
-      </p>
-      <div class="cta">
-        <a class="btn btn-call" href="tel:+989102834323">تماس مستقیم</a>
-        <a class="btn btn-wa" href="https://wa.me/989102834323?text=سلام%20برای%20سرویس%20الهیه%20نیاز%20دارم" target="_blank" rel="noopener">گفت‌وگو در واتساپ</a>
+    <header class="hero" role="banner">
+      <h1>تعمیران — خدمات و تعمیرات لوازم گازی و حرارتی</h1>
+      <p class="lead">خانگی و صنعتی — اسپرسوساز، گاز/فر، هود، تاپینگ/سرخ‌کن، بن‌ماری، بلندر و شیکر. پوشش سریع در مناطق ۱، ۲ و ۳ تهران.</p>
+
+      <a class="phone" href="tel:+989102834323" aria-label="تماس مستقیم">📞 09102834323</a>
+
+      <div class="cta" role="navigation" aria-label="تماس و واتساپ">
+        <a class="btn btn-call" href="tel:+989102834323">تماس فوری</a>
+        <a class="btn btn-wa" href="https://wa.me/989102834323?text=سلام%20برای%20سرویس%20نیاز%20دارم" target="_blank" rel="noopener">واتساپ</a>
       </div>
-      <div class="badges">
-        <span class="badge">الهیه</span><span class="badge">فرشته</span><span class="badge">محمودیه</span>
-        <span class="badge">زعفرانیه</span><span class="badge">ولنجک</span><span class="badge">ونک</span>
-        <span class="badge">سعادت‌آباد</span><span class="badge">شهرک غرب</span><span class="badge">جردن</span>
+
+      <div class="badges" aria-hidden="false" style="margin-top:12px">
+        <span class="badge">الهیه</span><span class="badge">نیاوران</span><span class="badge">زعفرانیه</span>
+        <span class="badge">ولنجک</span><span class="badge">ونک</span><span class="badge">سعادت‌آباد</span>
       </div>
     </header>
 
-    <!-- SPECIALTIES -->
-    <section>
-      <h2>تخصص‌ها</h2>
-      <div class="cols">
+    <section aria-labelledby="services">
+      <h2 id="services">تخصص‌ها (خانگی / صنعتی)</h2>
+      <div style="display:grid;gap:14px;grid-template-columns:1fr;@media(min-width:760px){grid-template-columns:1fr 1fr;}">
         <div>
           <h3>دستگاه‌های خانگی</h3>
           <ul>
-            <li>گاز (اجاق مبله/صفحه‌ای)</li>
-            <li>فر</li>
-            <li>هود</li>
-            <li>مایکروویو</li>
-            <li>کباب‌پز و گریل</li>
-            <li>توستر و فر برقی</li>
-            <li>قهوه ساز/اسپرسوساز خانگی</li>
+            <li>گاز (اجاق مبله/صفحه‌ای)، فر، هود</li>
+            <li>مایکروویو، توستر، کباب‌پز و گریل</li>
+            <li>اسپرسو/قهوه‌ساز خانگی</li>
           </ul>
-          <p><a href="espresso.html">→ جزئیات و سرویس اسپرسو</a></p>
         </div>
         <div>
           <h3>دستگاه‌های صنعتی</h3>
           <ul>
-            <li>تاپینگ (سالاد/پیتزا)</li>
-            <li>سرخ‌کن</li>
-            <li>پاستاپز</li>
-            <li>تنور</li>
-            <li>اجاق صنعتی و فر صنعتی</li>
-            <li>بن‌ماری و گرمخانه</li>
-            <li>اتوکلاو</li>
-            <li>اسپرسوساز صنعتی</li>
-            <li>بلندر و شیکر</li>
+            <li>تاپینگ، سرخ‌کن، پاستاپز، تنور</li>
+            <li>اجاق/فر صنعتی، بن‌ماری، گرمخانه، اتوکلاو</li>
+            <li>اسپرسوساز صنعتی — بلندر و شیکر</li>
           </ul>
-          <p><a href="hood-range.html">→ هود/فن و اجاق/فر صنعتی</a></p>
         </div>
       </div>
     </section>
 
-    <!-- AREAS -->
-    <section>
-      <h2>مناطق پوشش (تهران؛ مناطق ۱، ۲ و ۳)</h2>
-      <p><strong>منطقه ۱:</strong> الهیه/فرشته، نیاوران، قیطریه، زعفرانیه، ولنجک، تجریش، دربند، درکه، دارآباد، اقدسیه، فرمانیه، کامرانیه، چیذر، محمودیه، اوین، جمشیدیه، کاشانک و…</p>
-      <p><strong>منطقه ۲:</strong> سعادت‌آباد، شهرک غرب (قدس)، گیشا/کوی نصر، مرزداران، شهرآرا، تهران‌ویلا، طرشت، دریان‌نو، فرحزاد، ستارخان (محور و اطراف)…</p>
-      <p><strong>منطقه ۳:</strong> ونک، میرداماد/داوودیه، جردن/آفریقا، ظفر/دستگردی، قلهک، دروس، اختیاریه، بلوار کاوه، سیدخندان (اطراف پل)، دولت/کلاهدوز، آرارات و…</p>
-    </section>
-
-    <!-- REVIEWS -->
-    <section id="reviews">
-      <h2>نظر مشتریان</h2>
-      <p>«سرویس اسپرسوساز صنعتی ما سریع و تمیز انجام شد.» — کافه در الهیه</p>
-      <p>«اجاق صنعتی تنظیم شد؛ شعله عالی.» — رستوران در زعفرانیه</p>
-      <p>«برخورد عالی و شفاف؛ پیشنهاد می‌کنم.» — ساکن سعادت‌آباد</p>
-    </section>
-
-    <!-- بخش لینک به نمونه‌کار و نظرات: این را در index.html اضافه کنید -->
-    <section>
-      <h2>نمونه‌کار و نظرات</h2>
-      <p>
-        <a class="badge" href="portfolio.html">مشاهده نمونه‌کارها (قبل/بعد)</a>
-        <a class="badge" href="reviews.html">خواندن/ارسال نظر مشتری</a>
-      </p>
-    </section>
-
-    <!-- LOCATION SECTION ADDED -->
-    <section id="location" style="margin-top:20px;">
-      <h2>آدرس دفتر</h2>
-      <p>دفتر: <strong>تعمیران — الهیه</strong></p>
+    <section id="location" aria-labelledby="location-title">
+      <h2 id="location-title">آدرس دفتر</h2>
+      <p><strong>تعمیران — الهیه</strong></p>
       <p>آدرس (لینک مسیر): <a href="https://nshn.ir/69_bvZRT5xuROJ" target="_blank" rel="noopener">مشاهده روی نقشه / مسیر یابی</a></p>
       <p>تماس فوری: <a href="tel:+989102834323">09102834323</a></p>
-      <p>واتساپ: <a href="https://wa.me/989102834323?text=سلام%20من%20از%20نقشه%20دیدم%20و%20برای%20سرویس%20تماس%20می‌گیرم.%20آدرس:%20https://nshn.ir/69_bvZRT5xuROJ" target="_blank" rel="noopener">پیام واتساپ</a></p>
-      <p class="small">(برای باز شدن نقشه، ممکن است کاربر نیاز به برنامهٔ نقشه یا مرورگر داشته باشد.)</p>
+      <p>واتساپ: <a href="https://wa.me/989102834323?text=سلام%20من%20از%20نقشه%20دیدم%20و%20برای%20سرویس%20تماس%20می‌گیرم.%20آدرس:%20https://nshn.ir/69_bvZRT5xuROJ" target="_blank" rel="noopener">ارسال پیام</a></p>
+      <p style="color:#6b7280;font-size:14px">(در صورت لزوم برای باز کردن نقشه از مرورگر یا برنامهٔ نقشه استفاده کنید.)</p>
     </section>
 
-    <!-- FAQ -->
+    <section id="areas">
+      <h2>مناطق پوشش</h2>
+      <p style="color:var(--muted)">الهیه، فرشته، نیاوران، قیطریه، زعفرانیه، ولنجک، ونک، میرداماد، جردن، سعادت‌آباد، شهرک غرب و مناطق اطراف.</p>
+    </section>
+
+    <section id="quick-links">
+      <h2>صفحات مفید</h2>
+      <div class="links-row">
+        <a href="espresso.html">سرویس اسپرسو</a>
+        <a href="hood-range.html">هود و اجاق صنعتی</a>
+        <a href="portfolio.html">نمونه‌کار (قبل/بعد)</a>
+        <a href="reviews.html">نظرات مشتریان</a>
+      </div>
+    </section>
+
     <section id="faq">
       <h2>سؤالات پرتکرار</h2>
-      <p><strong>بازدید اولیه دارید؟</strong> بله؛ همراه سرویس یک چک ایمنی گاز رایگان انجام می‌شود.</p>
+      <p><strong>بازدید اولیه دارید؟</strong> بله؛ بازدید و چک ایمنی گاز همراه سرویس انجام می‌شود.</p>
       <p><strong>زمان انجام کار؟</strong> عیب‌یابی ۲۰–۴۵ دقیقه و اغلب کارها همان‌روز انجام می‌شود.</p>
-      <p><strong>هزینه چگونه است؟</strong> شفاف و بر اساس نوع دستگاه/زمان؛ عیب‌یابی در صورت انجام کار از فاکتور کسر می‌شود.</p>
     </section>
 
-    <footer>©شرکت تعمیران — الهیه و مناطق ۱، ۲، ۳ تهران | 09102834323</footer>
+    <footer>© تعمیران — الهیه و مناطق ۱، ۲، ۳ تهران — 09102834323</footer>
   </div>
 
-  <!-- Sticky Call/WhatsApp (mobile) -->
-  <div class="sticky-cta">
-    <div class="inner">
-      <a class="call" href="tel:+989102834323">📞 تماس</a>
-      <a class="wa" href="https://wa.me/989102834323?text=سلام%20برای%20سرویس%20الهیه%20نیاز%20دارم">🟢 واتساپ</a>
-    </div>
+  <!-- Sticky mobile CTA -->
+  <div class="sticky-cta" role="complementary" aria-hidden="false">
+    <a class="sticky-call" href="tel:+989102834323">📞 تماس</a>
+    <a class="sticky-wa" href="https://wa.me/989102834323?text=سلام%20برای%20سرویس%20نیاز%20دارم" target="_blank" rel="noopener" class="sticky-wa">🟢 واتساپ</a>
   </div>
 
-  <!-- FAQ schema for rich results -->
+  <!-- FAQ schema (fixed) -->
   <script type="application/ld+json">
   {
-   "@context":"https://schema.org",
-   "@type":"FAQPage",
-   "mainEntity":[
-     {"@type":"Question","name":"بازدید ایمنی گاز دارید؟","acceptedAnswer":{"@type":"Answer","text":"بله؛ همراه سرویس یک چک ایمنی گاز رایگان انجام می‌شود."}}},
-     {"@type":"Question","name":"زمان انجام کار چقدر است؟","acceptedAnswer":{"@type":"Answer","text":"عیب‌یابی ۲۰–۴۵ دقیقه و بیشتر کارها همان‌روز جمع می‌شود."}}},
-     {"@type":"Question","name":"هزینه‌ها چگونه محاسبه می‌شود؟","acceptedAnswer":{"@type":"Answer","text":"هزینه شفاف و بر پایه‌ی نوع دستگاه و زمان کار است؛ عیب‌یابی در صورت انجام کار از فاکتور کسر می‌شود."}}}
-   ]
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "بازدید ایمنی گاز دارید؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "بله؛ همراه سرویس یک چک ایمنی گاز رایگان انجام می‌شود."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "زمان انجام کار چقدر است؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "عیب‌یابی ۲۰–۴۵ دقیقه و اغلب کارها همان‌روز انجام می‌شود."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "چطور تماس بگیرم؟",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "با شماره 09102834323 تماس یا از طریق واتساپ به 989102834323+ پیام دهید."
+        }
+      }
+    ]
   }
   </script>
 </body>
